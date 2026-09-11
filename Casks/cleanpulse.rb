@@ -1,9 +1,9 @@
 cask "cleanpulse" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.2.0-alpha.4"
-  sha256 arm:   "501467a54a4a2268d9d1aac5856cfb7c730c5f4930428ea50f8c3d11c85349f0",
-         intel: "cd9f5e99e8d0594bfee5773c958aea8b60c5fca94a49807443cdb6c2fa4099b8"
+  version "0.2.0-alpha.5"
+  sha256 arm:   "33698bb04660d37b2e96f6a147ffb40df52dc16480b581c8fa6957df4d1637c3",
+         intel: "6b395ae00ae200a64361944c6d69886925329be94c70fe3a074fbcdb608e1c7a"
 
   url "https://github.com/bimlesharma/cleanpulse-releases/releases/download/v#{version}/CleanPulse_#{version}_#{arch}.tar.gz"
   name "CleanPulse"
